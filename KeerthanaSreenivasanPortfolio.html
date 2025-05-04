@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keerthana's Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3ecf9;
+      color: #2d133d;
+    }
+    header {
+      background-color: #6a0dad;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 0.5rem 0.5rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #4b0082;
+      border-bottom: 2px solid #dda0dd;
+      padding-bottom: 0.3rem;
+    }
+    .project {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 12px rgba(106, 13, 173, 0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #6a0dad;
+      color: white;
+    }
+    a {
+      color: #6a0dad;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+    
+    /* About Me section specific styles */
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .content-container {
+      display: flex;
+      gap: 30px;
+      align-items: flex-start;
+    }
+    
+    .profile-image {
+      width: 250px;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+      .content-container {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .profile-image {
+        width: 70%;
+        max-width: 250px;
+        margin-bottom: 20px;
+      }
+      
+      .project {
+        padding: 1rem;
+      }
+    }
+    
+    /* Contact section responsive */
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    @media screen and (max-width: 480px) {
+      header {
+        padding: 1.5rem 0.5rem;
+      }
+      
+      h1 {
+        font-size: 1.8rem;
+      }
+      
+      section {
+        padding: 1rem 0.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Keerthana Sreenivasan</h1>
+    <p>Business Analyst | MBA | Ex-Project Manager</p>
+    <p>Bridging people, processes, and purpose through data-driven decisions and thoughtful strategy.</p>
+  </header>
+
+  <section class="about-section">
+    <div class="about-container">
+      <h2>About Me</h2>
+      
+      <div class="content-container">
+        <!-- Image on left -->
+        <img class="profile-image" src="https://lh3.googleusercontent.com/d/1ifLie83deINRD1GOgnzotDI3WSqjppNz" alt="Keerthana Sreenivasan" />
+        
+        <!-- Text content on right -->
+        <div>
+          <p>I am a passionate Customer Success Manager and an aspiring Business Analyst with an MBA from Germany and 3+ years of experience managing client relationships, cross-functional projects, and operational excellence in fast-paced, global environments. My strength lies in translating business needs into scalable solutions.</p>
+          
+          <p>At my previous role in an expert network firm, I led recruitment and delivery for diverse consulting projects, managed international client accounts, and consistently exceeded KPIs. I'm currently seeking roles in Customer Success, Business Analysis, or Strategic Project Management—especially in tech/SaaS companies where I can combine my people skills and business acumen to make real impact.</p>
+          
+          <p>I'm fluent in English and proficient in German (B2). I'm now seeking exciting opportunities where I can merge analytical thinking with cross-functional collaboration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Where I Made an Impact 💼</h2>
+    <ul>
+      <li>
+        <strong>Project Manager / Customer Success Manager – Guidepoint, Düsseldorf</strong>
+        <p>Managed 100+ cross-border consulting projects (Mainly in the EU) by recruiting, vetting, and onboarding industry experts based on client needs across sectors like tech, healthcare, and finance.</p>
+        <p>Acted as the main point of contact for global clients—ensuring timely project delivery, high service satisfaction, and repeat business.</p>
+        <p>Collaborated with internal sales and research teams to develop tailored expert outreach strategies and improve project outcomes.</p>
+        <p>Used CRM and project management tools (e.g., Trello,) to track progress, report KPIs, and streamline workflows.</p>
+      </li>
+      
+      <li>
+        <strong>Digital Marketing Analyst – Supertrends Institute, Zurich</strong>
+        <p>Assisted in planning and executing digital campaigns across platforms like Google Ads, and LinkedIn to increase brand visibility and lead generation.</p>
+        <p>Conducted keyword research, competitor analysis, and performance tracking using tools like Google Analytics and HubSpot.</p>
+        <p>Created content calendars and drafted SEO-optimized content for blogs, email newsletters, and social media channels.</p>
+        <p>Supported CRM management and email automation workflows to nurture leads and enhance customer engagement.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>MBA, International Management</strong> – CBS International Business School, Germany (2019–2021)</li>
+      <li><strong>B.E., Computer Science</strong> – Anna University, Chennai (2014–2018)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Tools: PowerPoint, Excel, Google Analytics, Lucid Chart, Trello, HTML</li>
+      <li>Business Skills: Data Analysis, Strategic Planning, Project Management</li>
+      <li>Soft Skills: Critical Thinking, Problem Solving, Client Relationship, Leadership</li>
+      <li>Languages: English (Fluent), German (B2), Tamil, Hindi, Malayalam</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>L'Oréal Case Study: The Impact of Digital Transformation in the Cosmetics Industry</h3>
+      
+      <div>
+        <h4>🖼️ Project Overview</h4>
+        <p>During my final year of MBA, I conducted a thesis on "The Impact of Digital Transformation in the Cosmetics Industry", using L'Oréal as a case study. I applied business analysis methodologies to evaluate how digital strategies reshaped consumer behavior, supply chains, and marketing at L'Oréal.</p>
+      </div>
+
+      <div>
+        <h4>🎯 Business Problem</h4>
+        <p>The cosmetics industry, including L'Oréal, faced disruption from evolving digital trends—such as AI personalization, influencer marketing, and e-commerce dominance. The challenge: How could L'Oréal stay competitive in a tech-driven market?</p>
+      </div>
+
+      <div>
+        <h4>🧰 Tools & Techniques Used</h4>
+        <ul>
+          <li>SWOT Analysis</li>
+          <li>PESTEL Analysis</li>
+          <li>Stakeholder Analysis</li>
+          <li>Customer Journey Mapping</li>
+          <li>Use Case Diagram (for virtual try-on features)</li>
+          <li>Benchmarking</li>
+          <li>KPI Tracking for digital adoption</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>📊 Key Business Analysis Activities</h4>
+        <ul>
+          <li>Identified stakeholders across departments (Marketing, R&D, supply chain).</li>
+          <li>Mapped the current and future state of L'Oréal's digital customer experience using journey maps.</li>
+          <li>Created use cases such as:
+            <ul>
+              <li>Virtual Try-On App using AR (L'Oréal app)</li>
+              <li>Personalized skincare recommendations via AI</li>
+              <li>Subscription models for loyal customers</li>
+            </ul>
+          </li>
+          <li>Analyzed market trends and consumer data to forecast adoption and risks.</li>
+          <li>Recommended KPIs for digital performance like bounce rate, app usage, and online conversion.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>✅ Outcome</h4>
+        <p>The case study concluded that digital transformation at L'Oréal is not just tech adoption—it's a shift in mindset across functions. Business Analysis helped break down complex processes into measurable, actionable strategies and identified opportunities for future growth.</p>
+      </div>
+
+      <div>
+        <h4>📌 Skills Demonstrated</h4>
+        <ul>
+          <li>Strategic Thinking</li>
+          <li>Market Research</li>
+          <li>Use Case Development</li>
+          <li>Stakeholder Management</li>
+          <li>Data-Driven Recommendations</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Resume</h2>
+    <p>"Curious about what I bring to the table? Here's the full menu."</p>
+      <p><a href="https://KitHub14.github.io/KeerthanaSreenivasanPortfolio/Keerthana_2025.pdf" download>Download Resume</a> </p>
+  </section>
+
+  <section>
+    <h2>My Blog</h2>
+    <div>
+      <h3>📘 Business Analysis – A Beginner's Guide</h3>
+      <p>📝 <strong>Link:</strong> <a href="https://valiant-waltz-71b.notion.site/Business-Analysis-A-Beginner-s-Guide-1e8a1d30c6df803caec8c08308a0e86a" class="blog-link" target="_blank">Read the blog</a></p>
+      <p>🔍 <strong>What's Inside:</strong></p>
+      <ul>
+        <li>Introduction to Business Analysis</li>
+        <li>Key responsibilities of a BA</li>
+        <li>BA tools and techniques overview</li>
+        <li>Interview preparation tips</li>
+      </ul>
+      <p>💡 <strong>Perfect for:</strong> Beginners who want a structured and concise introduction to Business Analysis.</p>
+    </div>
+  </section>
+
+   <section>
+    <h2>Let’s build something great together. Reach out!</h2>
+
+    <p>Email: <a href="mailto:keerthanasreenivasan14@gmail.com">keerthanasreenivasan14@gmail.com</a> <a href="https://calendly.com/connectwithkiki/15min" target="_blank">📅 Book a time to talk</a>
+ </p>
+    <p>Phone: +49 178 932 9314  <a href="https://wa.me/491789329314?text=Hi%20Keerthana%2C%20I%20came%20across%20your%20portfolio%20and%20wanted%20to%20connect!" target="_blank">💬 Chat with me on WhatsApp</a>
+</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/keerthana-sreenivasan-39783b204/" target="_blank">linkedin.com/in/keerthana-sreenivasan</a></p>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 Keerthana Sreenivasan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
